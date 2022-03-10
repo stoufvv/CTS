@@ -11,4 +11,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.IllegalTransferException"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.InsufficientFundsException"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.cleancode.stage2.ProductType"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.cleancode.stage3.ProductType"/>
 </qualifiedTypeNameHistroy>
