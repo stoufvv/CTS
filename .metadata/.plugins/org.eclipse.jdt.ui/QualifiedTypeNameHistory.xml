@@ -2,4 +2,13 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.lab1.main.interfaces.Profitable"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.lab1.main.exceptions.InsufficientFundsException"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.CurrentAccount"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.SavingsAccount"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.Banker"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.BankAccount"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.AccountType"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.IllegalTransferException"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.InsufficientFundsException"/>
 </qualifiedTypeNameHistroy>
