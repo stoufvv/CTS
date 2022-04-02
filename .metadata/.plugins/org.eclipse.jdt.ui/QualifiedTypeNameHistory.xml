@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.InsufficientFundsException"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.cleancode.stage2.ProductType"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.cleancode.stage3.ProductType"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.clean.code.stage6.exceptions.MissingMarketingStrategyException"/>
+    <fullyQualifiedTypeName name="ro.ase.cst.g1099.clean.code.stage1.DiscountStrategy"/>
+    <fullyQualifiedTypeName name="ro.ase.cst.g1099.clean.code.stage2.ProductType"/>
+    <fullyQualifiedTypeName name="ro.ase.cts.g1099.clean.code.stage6.MarketingStrategy"/>
+    <fullyQualifiedTypeName name="ro.ase.csie.cts.g1099.design.patterns.singleton.DBConnection"/>
 </qualifiedTypeNameHistroy>
