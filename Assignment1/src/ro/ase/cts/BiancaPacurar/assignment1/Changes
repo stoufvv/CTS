@@ -1,0 +1,14 @@
+Changes:
+
+- renamed the attributes and methods using the CamelCase rule: loanValue, interestRate, paymentTime, getLoanBalue, setLoanValue
+- declared the attributes on a new line
+- created exceptions that can be thrown with dpecific names and used them for validating values
+- deleted some unnecessary methods
+- encapsulated the attributes
+- created public static final field for the number of days in a year
+- ovveriden the toString
+- created an enum class and used it for the types of subscription
+- created interfaces
+- used verify to validate the values of certain fields
+- used public methods
+- used string builder
