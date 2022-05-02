@@ -1,0 +1,10 @@
+Title of the bachelor topic: Film Lab Management App
+The film has many attributes, but not all of them are needed. Make sure that a user can add a film without mentioning all the attributes, but without giving them no value.
+
+Advantages
+- now you can explicitly assign values
+- the implementation can need less attributes, so the user can provide less of them
+
+Disadvantages
+- a new builder has to be implemented if a new film type appears
+- bugs can become serious if all values are needed
