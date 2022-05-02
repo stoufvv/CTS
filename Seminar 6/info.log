@@ -1,0 +1,9 @@
+2022-04-05T10:04:32.516017100 <Info> - Hello
+2022-04-05T10:04:46.377809200 <Info> - Hello
+2022-04-05T10:04:55.954785 <Info> - Hello
+2022-04-05T10:05:09.054758900 <Info> - Hello
+2022-04-05T10:10:16.887784700 <Singleton> - Hello again
+2022-05-02T23:18:37.485515900 <Info> - Testing info
+2022-05-02T23:18:37.486512300 <Info> - An info message
+2022-05-02T23:18:49.953922500 <Info> - Testing info
+2022-05-02T23:18:49.954922100 <Info> - An info message
