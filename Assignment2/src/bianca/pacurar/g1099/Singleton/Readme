@@ -1,0 +1,10 @@
+Title of the bachelor topic: Film Lab Management App
+Verify that the app is using only one database connection
+
+Advantages
+- easy to verify that the same database is used by all modules
+- easy to use when we have a small number of same-time connections
+
+Disadvantages
+- unit testing becomes difficult
+- it becomes harder to monitor if one connection is made and another one uses another name
