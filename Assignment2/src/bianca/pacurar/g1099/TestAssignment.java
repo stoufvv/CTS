@@ -1,4 +1,4 @@
-package bianca.pacurar.g1099.Facade;
+package bianca.pacurar.g1099;
 
 import bianca.pacurar.g1099.Adapter.User;
 import bianca.pacurar.g1099.Adapter.GoogleUser;

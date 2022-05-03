@@ -1,0 +1,10 @@
+Title of the bachelor topic: Film Lab Management App
+
+When the products in the shop load, they take a lot of resources.
+
+Advantages:
+- alternative to inheritance
+- does not call the constructor directly
+
+Disadvantages:
+- it is harder to clone objects with circular refferences
