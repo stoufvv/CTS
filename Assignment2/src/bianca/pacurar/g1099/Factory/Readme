@@ -1,0 +1,11 @@
+Title of the bachelor topic: Film Lab Management App
+The app can be used by 3 different types of users, with different access levels.
+
+Advantages
+- we encapsulate the instantialization process
+- we create a user easily by just picking its type and choosing a new name
+
+Disadvantages
+- factory can set some attributes by itself
+- if new types appear the factory needs an update
+

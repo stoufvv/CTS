@@ -1,6 +1,11 @@
 package bianca.pacurar.g1099.Facade;
 
 import bianca.pacurar.g1099.Builder.Film;
+import bianca.pacurar.g1099.Factory.Customer;
+import bianca.pacurar.g1099.Factory.ManageCustomers;
+import bianca.pacurar.g1099.Factory.Manager;
+import bianca.pacurar.g1099.Factory.UserFactory;
+import bianca.pacurar.g1099.Factory.UserType;
 import bianca.pacurar.g1099.Singleton.ConnectionDB;
 
 
@@ -18,6 +23,10 @@ public class TestAssignment {
         //Builder
         Film film = new Film.FilmBuilder("Gold").addIso(200).addCompany("Kodak").build();
 
+        //Factory
+        ManageCustomers manageCustomers = new ManageCustomers((Manager)UserFactory.getUser(UserType.MANAGER, "Random manager"));
+        manageCustomers.addCustomer((Customer)UserFactory.getUser(UserType.CUSTOMER, "Bianca Pacurar"));
+        
 	}
 
 }

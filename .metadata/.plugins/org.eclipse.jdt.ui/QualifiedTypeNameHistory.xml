@@ -7,8 +7,6 @@
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.Banker"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.BankAccount"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.models.AccountType"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.IllegalTransferException"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.recap.exceptions.InsufficientFundsException"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.cleancode.stage2.ProductType"/>
@@ -31,4 +29,10 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.design.patterns.models.LoggerType"/>
     <fullyQualifiedTypeName name="ro.ase.cts.g1099.design.patterns.interfaces.ILogging"/>
+    <fullyQualifiedTypeName name="bianca.pacurar.g1099.Singleton.ConnectionDB"/>
+    <fullyQualifiedTypeName name="bianca.pacurar.g1099.Builder.Film.Filmbuilder"/>
+    <fullyQualifiedTypeName name="bianca.pacurar.g1099.Builder.Film"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
