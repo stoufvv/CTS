@@ -1,0 +1,11 @@
+Title of the bachelor topic: Film Lab Management App
+
+Only users with accounts should be able to use the app, so whenever a person tries to access the app twice woth no account, they should be taken to the login page.
+
+Advantages:
+- control over the service object
+- procy works even though the service object doesn't
+
+Disadvantages:
+- delay in service response
+- complicated code due to many classes used

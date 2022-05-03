@@ -14,7 +14,7 @@ import bianca.pacurar.g1099.Factory.UserFactory;
 import bianca.pacurar.g1099.Factory.UserType;
 import bianca.pacurar.g1099.Prototype.FilmsManagement;
 import bianca.pacurar.g1099.Singleton.ConnectionDB;
-
+import bianca.pacurar.g1099.Flyweight.*;
 
 
 
@@ -53,6 +53,10 @@ public class TestAssignment {
         User appUser = new GoogleImplementation(googleUser);
         
         //Flywaight
+        bianca.pacurar.g1099.Flyweight.Customer customer = new bianca.pacurar.g1099.Flyweight.Customer("Bianca Pacurar");
+        customer.loadData();
+        customer.placeOrder(new bianca.pacurar.g1099.Flyweight.Order("Kodak Gold", "first order"));
+        
 	}
 
 }
