@@ -1,0 +1,14 @@
+Title of the bachelor topic: Film Lab Management App
+
+A manager wants to perform a number of operations on films that are added to the shop.
+In order to have all the films a database query has to be performed and this takes up a lot of resources. 
+For this to be made on every operation would be a lot of a waste of resources. 
+The prototype pattern solves this issue by querying the data only one time.
+
+Advantages
+- you can operate fast
+- it is efficient for the memory
+
+Disadvantages
+- updates on the db are not registered after the intial query so the solution will use the older version
+- we make shallow copies

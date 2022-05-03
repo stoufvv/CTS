@@ -6,12 +6,13 @@ import bianca.pacurar.g1099.Factory.ManageCustomers;
 import bianca.pacurar.g1099.Factory.Manager;
 import bianca.pacurar.g1099.Factory.UserFactory;
 import bianca.pacurar.g1099.Factory.UserType;
+import bianca.pacurar.g1099.Prototype.FilmsManagement;
 import bianca.pacurar.g1099.Singleton.ConnectionDB;
 
 
 public class TestAssignment {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CloneNotSupportedException {
 		
 		//Singleton
         ConnectionDB DB1 = ConnectionDB.getConnection("localhost://DB");
@@ -26,6 +27,10 @@ public class TestAssignment {
         //Factory
         ManageCustomers manageCustomers = new ManageCustomers((Manager)UserFactory.getUser(UserType.MANAGER, "Random manager"));
         manageCustomers.addCustomer((Customer)UserFactory.getUser(UserType.CUSTOMER, "Bianca Pacurar"));
+        
+        //Prototype
+        FilmsManagement films1 = new FilmsManagement("Kodak gold 200");
+        FilmsManagement films2 = (FilmsManagement) films1.clone();
         
 	}
 
