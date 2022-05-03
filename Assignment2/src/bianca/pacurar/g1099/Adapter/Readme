@@ -1,0 +1,11 @@
+Title of the bachelor topic: Film Lab Managmenet App
+
+Users log in the app with google authentification
+
+Advantages
+- we can reuse code
+- helping the libraries work with the given implementation
+
+Disadvantages:
+- some functionalities may not work
+- some features can be lost

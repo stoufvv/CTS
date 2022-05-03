@@ -1,5 +1,8 @@
 package bianca.pacurar.g1099.Facade;
 
+import bianca.pacurar.g1099.Adapter.User;
+import bianca.pacurar.g1099.Adapter.GoogleUser;
+import bianca.pacurar.g1099.Adapter.GoogleImplementation;
 import bianca.pacurar.g1099.Builder.Film;
 import bianca.pacurar.g1099.Decorator.FinishedOrder;
 import bianca.pacurar.g1099.Decorator.Order;
@@ -11,6 +14,7 @@ import bianca.pacurar.g1099.Factory.UserFactory;
 import bianca.pacurar.g1099.Factory.UserType;
 import bianca.pacurar.g1099.Prototype.FilmsManagement;
 import bianca.pacurar.g1099.Singleton.ConnectionDB;
+
 
 
 
@@ -44,6 +48,9 @@ public class TestAssignment {
         
         
         //Adapter
+        GoogleUser googleUser = new GoogleUser();
+        googleUser.login();
+        User appUser = new GoogleImplementation(googleUser);
         
         //Flywaight
 	}
