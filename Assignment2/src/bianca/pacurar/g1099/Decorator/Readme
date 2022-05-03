@@ -1,0 +1,11 @@
+Title of the bachelor topic: Film Lab Management App
+
+Customers can place their orders in 30 minutes time and when the time is over we want to add a finished attribute and change the status of the order as not placed. (modify object definition at run time)
+ 
+Advantages
+- can only modifiy the aspects you want
+- for legacy code
+
+Disadvantages
+- debugging is hard because of the layers
+- it gets harder for the garbage collector to deal with it because it creates new memory locations and unrefferenced objects

@@ -1,6 +1,9 @@
 package bianca.pacurar.g1099.Facade;
 
 import bianca.pacurar.g1099.Builder.Film;
+import bianca.pacurar.g1099.Decorator.FinishedOrder;
+import bianca.pacurar.g1099.Decorator.Order;
+import bianca.pacurar.g1099.Decorator.OrderToBePlaced;
 import bianca.pacurar.g1099.Factory.Customer;
 import bianca.pacurar.g1099.Factory.ManageCustomers;
 import bianca.pacurar.g1099.Factory.Manager;
@@ -8,6 +11,7 @@ import bianca.pacurar.g1099.Factory.UserFactory;
 import bianca.pacurar.g1099.Factory.UserType;
 import bianca.pacurar.g1099.Prototype.FilmsManagement;
 import bianca.pacurar.g1099.Singleton.ConnectionDB;
+
 
 
 public class TestAssignment {
@@ -32,6 +36,16 @@ public class TestAssignment {
         FilmsManagement films1 = new FilmsManagement("Kodak gold 200");
         FilmsManagement films2 = (FilmsManagement) films1.clone();
         
+        //Decorator
+        Order order = new OrderToBePlaced("Place an order");
+        order.addOrder("Generic order");
+        order = new FinishedOrder(order);
+        order.addOrder("Finished order");
+        
+        
+        //Adapter
+        
+        //Flywaight
 	}
 
 }
